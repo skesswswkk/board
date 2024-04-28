@@ -1,8 +1,10 @@
-# 사용기술
+# 1,000/TPS 트래픽 커버 가능 게시판
+
+## 사용기술
 - JAVA 17, Spring Boot 2.3, MyBatis, MySQL, Redis
 
 
-# 성능테스트 툴
+## 성능테스트 툴
 - Python 3.9, Locust
 - 성능테스트 툴 (https://docs.locust.io/en/stable/index.html)
   - 로커스트 설치. pip3 install locust
@@ -19,7 +21,7 @@
   - Endurance 테스트: 100명의 동시 사용자가 초당 100번을 호출하였을때 10분동안 서버의 지표를 확인
   - PEAK 테스트: 100명의 동시 사용자가 초당 50번씩 호출하다 1분에 1000명으로 사용자를 한번에 늘려 서버의 지표를 확인
 
-# 프로그램 주요 기능
+## 프로그램 주요 기능
 - 회원
   - 가입, 탈퇴
   - 아이디 및 닉네임 중복체크
@@ -40,11 +42,11 @@
   - 공지글 추가 기능
 
 
-# ERD(Entity Relationship Diagram)
+## ERD(Entity Relationship Diagram)
 ![image](https://github.com/ccommit-dev/Board-Server/assets/77635521/7fb0ec6b-1317-4911-9315-067244a8dd9e)
 
 
-# 시퀀스
+## 시퀀스
 - 게시글 등록 시퀀스
 ![image](https://github.com/ccommit-dev/Board-Server/assets/77635521/7791db61-97cc-4ad8-a90c-2e0a572049c5)
 
@@ -52,7 +54,7 @@
 ![image](https://github.com/ccommit-dev/Board-Server/assets/77635521/c5f228fd-ca8f-4144-a407-30e2647f9159)
 
 
-# 아키텍처
+## 아키텍처
 ![image](https://github.com/ccommit-dev/Board-Server/assets/77635521/62e053a4-51a4-4387-90c4-f5e450441f2f)
 
 
